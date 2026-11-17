@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+    margin: 80px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav .main-nav {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+nav .main-nav .sub-nav1 {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav .main-nav .sub-nav2 {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* Hero */
+#hero {
+    display: flex;
+    justify-content: center;
+
+  
+     
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-descrption {
+    margin-left: 100px;
+    height: 500px;
+    align-content: center;
+    padding-left: 10px;
+}
+.hero-descrption .hero-descrp-h1 {
+    color: #0f2943;
+    font-family: 'Quicksand', sans-serif;
+}    
+
+.hero-descrption .hero-para {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #8a8b8b;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-descrption .link {
+    margin-bottom:50px;
+    margin-top: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.hero-descrption .link .link1 {
+    background-color: #eb8951;
+    color: white;
+}
+
+.hero-descrption .link .link2 {
+    color: #eb8951;
+}
+
+.hero-descrption .link a{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 50px;
+    
+}
+
+.hero-descrption .hero-cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.hero-descrption .card h2 {
+    color: #0f2943;
+}
+
+#hero .hero-img {
+    margin-right: 100px;
+}
